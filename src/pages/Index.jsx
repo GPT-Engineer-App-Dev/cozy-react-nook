@@ -3,6 +3,9 @@ import TodoList from '../components/TodoList';
 import { List } from 'lucide-react';
 
 const Index = () => {
+  // Throw an error immediately when the component renders
+  throw new Error("This is a test error thrown on purpose");
+
   return (
     <div className="min-h-screen bg-gray-100 py-8">
       <div className="max-w-md mx-auto bg-white rounded-lg shadow-md p-6">
